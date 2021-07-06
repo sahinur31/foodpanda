@@ -1,3 +1,4 @@
+/* Default CSS */
 body {
     font-family: 'Montserrat', sans-serif;
     color: #575757;
@@ -6,18 +7,27 @@ body {
     background-color: #fff;
     margin: 0;
 }
+
 p {
     color: #222;
 }
+
+h2 {
+    font-size: 40px;
+}
+
 .theme-color {
     color: tomato;
 }
+
 .text-center {
     text-align: center;
 }
+
 .section-padding {
     padding: 120px 0;
 }
+
 .flexible-area {
     display: flex;
 }
@@ -33,6 +43,7 @@ p {
     width: 33.3333%;
     padding-left: 5%;
 }
+/*header area*/
 .header-top {
     background-color: #ddd;
 }
@@ -61,11 +72,12 @@ p {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 50px;
     background: linear-gradient(to right,#FB974B,#FE4D31);
     padding: 10px 30px;
     margin-top: 25px;
 }
+/*hero area*/
 .hero-area h1{
     font-size: 50px;
     line-height: 67px;
@@ -73,6 +85,7 @@ p {
     margin-top: 130px;
 
 }
+/*about area*/
 .about-area {
     background: url(images/7.png) no-repeat center / cover;
 }
@@ -83,6 +96,7 @@ p {
 .about-area h1 {
     font-size: 50px;
 }
+/* recipie area */
 .heading-area {
     max-width: 700px;
     margin: 0 auto;
@@ -100,10 +114,14 @@ p {
     color: #000;
     font-size: 30px;
 }
+/* count area */
 .count-area {
     box-shadow: #ccc 2px 2px 19px 1px;
     border-radius: 10px;
     margin: 0 100px;
+}
+.section-padding.counter {
+    padding: 0 0 120px;
 }
 .count {
     padding: 40px;
@@ -114,21 +132,20 @@ p {
 .count p {
     line-height: 10px;
 }
-
+/* contact area */
 .contact input {
     width: 100%;
     padding: 20px;
     margin-bottom: 22px;
 }
-
 .contact input[type=submit] {
     border: none;
     width: auto;
-    padding: 15px 54px;
+    padding: 18px 54px;
     display: inline-block;
     background: tomato;
     color: white;
-    margin-top: 30px;
+    cursor: pointer;
 }
 .contact-area {
     background-color: #F5F5F5;
@@ -140,15 +157,15 @@ p {
     width: 100%;
     padding: 20px;
 }
-
-
+/* footer area */
 .footer-area {
     color: #fff;
     background-color: #0B0E17;
 }
-.footer-area h1{
+.footer-area h3{
     color: #5B5B5B;
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 .footer-area p{
     color: white;
