@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #fff;
+    margin: 0;
+}
+p {
+    color: #222;
+}
+.theme-color {
+    color: tomato;
+}
+.text-center {
+    text-align: center;
+}
+.section-padding {
+    padding: 120px 0;
+}
+.flexible-area {
+    display: flex;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.third-width {
+    width: 33.3333%;
+    padding-left: 5%;
+}
+.header-top {
+    background-color: #ddd;
+}
+.menu {
+    padding: 14px 0px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul li a:hover,.menu ul li.active a{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.header-top .flexible-area {
+    justify-content: space-between;
+}
+.link-button{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+    background: linear-gradient(to right,#FB974B,#FE4D31);
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+.hero-area h1{
+    font-size: 50px;
+    line-height: 67px;
+    text-transform: capitalize;
+    margin-top: 130px;
+
+}
+.about-area {
+    background: url(images/7.png) no-repeat center / cover;
+}
+.about-area.section-padding {
+    padding-top:120px;
+    padding-bottom: 0;
+}
+.about-area h1 {
+    font-size: 50px;
+}
+.heading-area {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.recipie {
+    padding:15px;
+    border-radius: 20px;
+    box-shadow: #ccc 2px 2px 19px 1px;
+    margin: 20px;
+}
+.recipie img{
+    width: 100%;
+}
+.recipie h3 {
+    color: #000;
+    font-size: 30px;
+}
+.count-area {
+    box-shadow: #ccc 2px 2px 19px 1px;
+    border-radius: 10px;
+    margin: 0 100px;
+}
+.count {
+    padding: 40px;
+}
+.count h3 {
+    font-size: 40px;
+}
+.count p {
+    line-height: 10px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 22px;
+}
+
+.contact input[type=submit] {
+    border: none;
+    width: auto;
+    padding: 15px 54px;
+    display: inline-block;
+    background: tomato;
+    color: white;
+    margin-top: 30px;
+}
+.contact-area {
+    background-color: #F5F5F5;
+}
+.contact-area .heading-area {
+    margin-bottom: 60px;
+}
+.contact textarea {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.footer-area {
+    color: #fff;
+    background-color: #0B0E17;
+}
+.footer-area h1{
+    color: #5B5B5B;
+    margin-bottom: 25px;
+}
+.footer-area p{
+    color: white;
+}
